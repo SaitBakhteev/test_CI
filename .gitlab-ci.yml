@@ -1,0 +1,8 @@
+stages:
+  - test
+
+pytest:
+  stage: test
+  script:
+    - pip install -r requirements.txt
+    - pytest tests.py -v
