@@ -10,4 +10,4 @@ def test_invalid_reading_time():
     assert response_reading_time() == 5
 
 def test_response_status():
-    assert response_status() == 20
+    assert response_status() == 200
