@@ -12,4 +12,8 @@ def response_reading_time():
     return response.json()['data']['reading_time']
 
 
+def response_status():
+    return response.status_code
+
+
 print(response.json())
