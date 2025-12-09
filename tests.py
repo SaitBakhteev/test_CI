@@ -5,3 +5,6 @@ def test_response_created_date():
 
 def test_response_reading_time():
     assert response_reading_time() == 5
+
+def test_invalid_reading_time():
+    assert response_reading_time() == 6
