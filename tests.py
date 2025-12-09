@@ -1,0 +1,7 @@
+from script import response_created_date, response_reading_time
+
+def test_response_created_date():
+    assert response_created_date() == '2025-12-05T10:21:01.037478+03:00'
+
+def test_response_reading_time():
+    assert response_reading_time() == 5

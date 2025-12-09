@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    image: script
+    container_name: script_app
+
+
+#    image: .
+
